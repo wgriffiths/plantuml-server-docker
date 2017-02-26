@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  web:
+    image: wjlgriffiths/plantuml-server-docker:1.0
+    restart: always 
+    ports:
+      - "8080:8080"
